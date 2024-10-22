@@ -1,7 +1,6 @@
-//your code here
 function calculateTotal() {
-  // Get all price elements
-  const priceElements = document.querySelectorAll('[data-ns-test=prices]');
+  // Get all price elements with the correct data-ns-test="price"
+  const priceElements = document.querySelectorAll('[data-ns-test="price"]');
   
   // Initialize total sum
   let total = 0;
